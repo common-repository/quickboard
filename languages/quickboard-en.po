@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-16 10:34+0200\n"
+"PO-Revision-Date: 2020-09-16 10:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/hilfe.php:1
+msgid "Dashboard to Quickboard legt eine neue Benutzerrolle \"Quickboard\" an."
+msgstr "Dashboard to Quickboard adds a new role named \"Quickboard\"."
+
+#: admin/hilfe.php:2
+msgid "Nur Benutzer mit dieser Rolle bekommen das Quickboard zu sehen."
+msgstr "Only user with this role will see the Quickboard at the WP-backend."
+
+#: admin/hilfe.php:5
+msgid ""
+"Unter \"Menü wählen\" wählen Sie zuerst die Hauptnavigation und dann die "
+"Unternavigation aus, die der Rolle \"Quickboard\" zugänglich sein soll."
+msgstr ""
+"Under the tab \"Choose menu\" you choose from the mainnavigation and, if "
+"applies, from the subnavigation which are accessible for the role "
+"\"Quickboard\"."
+
+#: admin/hilfe.php:7
+msgid ""
+"Wenn Sie weitere Rechte nach dem Abspeichern für eine Unternavigation setzen "
+"wollen, klicken Sie zweimal langsam nacheinander auf die Hauptnavigation "
+"Option. Dadurch wird in der Unternavigation alle Navigationspunkte "
+"nachgeladen und können aktiviert werden."
+msgstr ""
+"If you want to set more rights after saving for a subnavigation, click twice "
+"slowly on the main navigation option. This reloads all navigation points in "
+"the subnavigation and can then be activated."
+
+#: admin/hilfe.php:10
+msgid "Hinweis:"
+msgstr "Notice:"
+
+#: admin/hilfe.php:12
+msgid ""
+"Wir empfehlen vor dem Setzen neuer Navigationselemente die bisher "
+"gespeicherten zu löschen."
+msgstr ""
+"We recommend that you delete the previously saved options before setting new "
+"navigation elements."
+
+#: admin/hilfe.php:14
+msgid ""
+"Folgende Befugnisse sind der Rolle \"Quickboard\" nach speichern der "
+"Optionsseiten zugeordnet:"
+msgstr ""
+"The following powers are assigned to the role \"Quickboard\" after saving "
+"the option pages:"
+
+#: admin/hilfe.php:27
+msgid "Bekannte Probleme"
+msgstr "Known issues"
+
+#: admin/hilfe.php:29
+msgid ""
+"Einige Plugins bringen eigene Rechte mit oder basieren darauf, dass ein "
+"Administrator angemeldet ist. Mit Quickboard kann dann zwar ein Link im "
+"Custom-Dashboard erstellt werden, die entsprechende Seite wird aber nicht "
+"angezeigt und es erfolgt eine Fehlermeldung. Daher ist es sinnvoll, das "
+"Quickboard mit einem Nutzer mit der Rolle \"Quickboard\" zu testen."
+msgstr ""
+"Some Plugins have own rights or only run when the active user is a "
+"administrator. Quickboard still will create a link in the custom Dashboard, "
+"but the linked page will not be loaded and an error will occur. Best "
+"practise is to check the Quickboard with an user-account with role "
+"\"Quickboard\"."
+
+#: admin/hilfe.php:31
+msgid "Meist tritt dies bei SEO Plugins auf!"
+msgstr "This applys often to SEO plugins!"
+
+#: admin/pro.php:1
+msgid "Vorteile der Proversion"
+msgstr "Advantage of proversion"
+
+#: admin/pro.php:2
+msgid ""
+"Mit Quickboardpro können Sie das Custom-Dashboard individuell gestalten."
+msgstr "With Quickboardpro you are able to design your custom Dashboard."
+
+#: admin/pro.php:6
+msgid ""
+"Mit dem eingebauten Button Designer können die Schaltflächen nach eigenen "
+"Wünschen gestaltet werden. Wähle Höhe, Breite, Hintergrundfarbe, Textfarbe, "
+"Text-Stil, Button Abstand, Rahmen-Radius und -Stil."
+msgstr ""
+"The integrated button designer allows you to set width, height, "
+"backgroundcolor, fontcolor, fontstyle, button gap, border-radius and -style."
+
+#: admin/pro.php:10
+msgid "Zudem kann ein Logo zum Quickboardpro hinzugefügt werden."
+msgstr "You are able to add an logo."
+
+#: admin/pro.php:15
+msgid "Besuchen Sie unsere Plugin-Seite unter"
+msgstr "Visit our Plugin page at"
+
+#: admin/pro.php:17
+msgid "für mehr Informationen und Preise."
+msgstr "for more Information and pricing."
+
+#: admin/settings.php:298 quickboard.php:84 quickboard.php:301
+msgid "Quickboard"
+msgstr "Quickboard"
+
+#: admin/settings.php:299 quickboard.php:41
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: admin/settings.php:303
+msgid "BEISPIEL"
+msgstr "EXAMPLE"
+
+#: admin/settings.php:303
+msgid "ZWEITE ZEILE"
+msgstr "SECOND ROW"
+
+#: admin/settings.php:308
+msgid "Menü wählen"
+msgstr "Choose menu"
+
+#: admin/settings.php:309
+msgid "Hilfe / Workflow"
+msgstr "Help / Workflow"
+
+#: admin/settings.php:310
+msgid "PROVERSION"
+msgstr "PROVERSION"
+
+#: admin/settings.php:313
+msgid "Menue-Punkte auswählen und abspeichern."
+msgstr "Choose menu and save."
+
+#: admin/settings.php:317
+msgid "Hauptnavigation"
+msgstr "Main-Navigation"
+
+#: admin/settings.php:317
+msgid "Subnavigation"
+msgstr "Sub-Navigation"
+
+#: admin/settings.php:330
+msgid "Löschen"
+msgstr "Delete"
+
+#: admin/settings.php:331
+msgid "Speichern"
+msgstr "Save"
+
+#: quickboard.php:17
+msgid "Quickboard ersetzt das Dashboard für die Rolle \"Quickboard\"."
+msgstr "Quickboard replaces the dashboard for the role \"Quickboard\"."
+
+#: quickboard.php:226
+msgid " - File editing not available!"
+msgstr " - Dateien editieren nicht möglich!"
+
+#: quickboard.php:264
+msgid "Upload von Dateien ist nicht erlaubt!"
+msgstr "Uploading files is not allowed!"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"

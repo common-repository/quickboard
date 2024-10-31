@@ -1,0 +1,230 @@
+.quick input[type=number]{ text-align:right;padding:0 10px;margin:2px 0;width:60px}
+.quick button{margin:2px 0;width:200px}
+.quick  input[type=text]{width:150px;margin:2px 0;text-align:right;}
+.quick input[type=submit]{margin:2px 0;width:150px}
+.quick select{margin:2px 0;width:60px; 
+    -moz-appearance: window;
+    -webkit-appearance: none;
+    background: #f5f5f5 url() right center no-repeat;
+	padding-right: 0px;
+	}
+}
+/** Link in Admin-Bar **/
+#wp-admin-bar-wtf-quick-custom-link a{
+    color:black;
+    background:none;
+}
+#wp-admin-bar-wtf-quick-custom-link a:hover{
+    color:black;
+    background:none;
+}
+
+.quick a:focus .gravatar, a:focus, a:focus .media-icon img{
+	outline:0;
+	box-shadow:none;
+}
+
+#quickvorschau{
+    display:grid;
+    grid-template-columns:repeat( auto-fit, minmax( 200px, 200px) );
+    grid-gap:5px;
+	padding:10px;
+	background:url( '../img/kachel.png' ); 
+}
+#quickvorschau a{
+    text-decoration:none;
+    display:table-cell;
+    text-align:center;
+	vertical-align:middle;
+    color:black;
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #bbbbbb;
+}
+#quickvorschau{
+    display:none;
+}
+.quick .klein{
+    font-size:11px;
+}
+#tabs.quick{
+    display:none;
+    margin:40px 0 0 0;
+    border: 0;
+    border-radius: 8px 8px 8px 8px;
+    width:638px;
+}
+.quick.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: black;
+}
+.quick .ui-state-active, .quick .ui-widget-content .ui-state-active, .quick .ui-widget-header .ui-state-active, .quick a.ui-button:active,.quick .ui-button:active,.quick .ui-button.ui-state-active:hover {
+    border: 0;
+    border-bottom-width: 0;
+    background: white;
+}
+.quick .ui-corner-all,.quick .ui-corner-top,.quick .ui-corner-left, .ui-corner-tl{
+	border-radius:8px 8px 0 0;
+	border:0;
+}
+.quick.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default a:link{
+	border:0;
+	color:#0735af;
+}
+.quick .ui-state-default,.quick .ui-widget-content .ui-state-default,.quick .ui-widget-header .ui-state-default{
+	background:none;
+	border:0;
+	color:#0735af;
+}
+.quick .ui-widget-header{
+    border:0;
+    background:none;
+}
+.quick.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+	background:white;
+}
+.quick.ui-tabs .ui-tabs-nav{
+	margin:0 0 0 20px;
+	background: transparent;
+	margin-top: -36px;
+}
+#dashtable, #tabs-2 table, #dashtablelogo{
+    border-collapse:collapse;
+}
+#dashtable td, #dashtablelogo td{
+    padding:0 10px;
+    border:1px solid #ccc;
+    width:300px;
+	vertical-align:top;
+}
+#dashtable td:first-child, #tabs-2 table td:first-child, #dashtablelogo table td:first-child{
+    border-right:none;
+}
+#dashtable tr:last-child td, #tabs-2 table tr:last-child, #dashtablelogo table tr:last-child{
+    border-right:1px solid #ccc;
+    padding: 5px 20px 0 0;
+    text-align:right;
+}
+.clabel {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin:12px 0;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.clabel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border:2px solid #ddd;
+  border-radius:3px;
+  transition: all 0.35s ease-in-out;
+}
+input:not( :checked ) ~ .checkmark{
+  #top: 4px;
+  #left: 6px;
+}
+.clabel:hover input:not( :checked ) ~ .checkmark{
+  top: -4px;
+  left: 0;
+    border-radius:3px;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+}
+.clabel:hover input:not( :checked ) ~ .checkmark:after {
+  display:block;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #909090;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.clabel input:checked ~ .checkmark {
+    border-radius:3px;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.clabel input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.clabel .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 7px;
+  height: 12px;
+  border: solid limegreen;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#tabs-2 table{
+    width:100%;
+}
+#tabs-2 table td{
+ border:1px solid #ccc;   
+}
+#tabs-2 table tr td:nth-child(1){
+    padding:0 0 0 10px;
+}
+#tabs-2 table tr td:nth-child(2){
+    text-align:right;
+}
+#tabs-2 table tr:last-child td, #dashtablelogo td:last-child{
+    text-align:right;
+}
+.wtf-cdash-wrapper{
+    display:grid;
+    grid-template-columns:repeat( auto-fit, minmax( 200px, 200px) );
+    grid-gap:5px;
+	padding:0 0 0 40px;
+}
+.wtf-cdash-wrapper a{
+    text-decoration:none;
+    color:black;
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+    display:table-cell;
+    text-align:center;
+	vertical-align:middle;
+    box-shadow: 3px 3px 3px #bbbbbb;
+}
+#upload_image_area{
+	cursor:pointer;
+}
+#image-preview{
+	max-width:350px;
+}

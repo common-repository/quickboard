@@ -1,0 +1,72 @@
+#adminmenumain, .update-nag, .notice{
+	display:none;
+}
+.folded #wpcontent, #wpcontent{
+	margin-left:0;
+	padding:0;
+}
+/* hide all admin-bar links incl. custom by other plugins */
+li[id^=wp-admin-bar]:not( [id=wp-admin-bar-wtf-quick-custom-link] ):not( [id=wp-admin-bar-my-account] ):not( [id=wp-admin-bar-logout] ){
+    display:none;
+}
+.ab-sub-wrapper{
+	max-width:120px;
+}
+#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li{
+	margin-left:0px;
+}
+ a,  a:active, a:focus{
+	 color:black;
+	 text-decoration:none;
+	 text-transform:uppercase;
+	 outline:none !important;
+	 box-shadow:none;
+	margin:0 5px 0 5px;
+ }
+#wpadminbar{
+	background: #ccc;
+	color:black;
+}
+#wpadminbar  #wp-admin-bar-my-account a, #wpadminbar  #wp-admin-bar-wp-custom-link a{
+	color:black;
+	background: #f1f1f1;
+}
+/** Link in Admin-Bar **/
+#wp-admin-bar-wtf-quick-custom-link a:before{
+content: "\f340";
+color:black !important;
+top:2px;
+}
+#wp-admin-bar-wtf-quick-custom-link a{
+    color:black !important;
+    background:none !important;
+}
+#wp-admin-bar-wtf-quick-custom-link a:hover{
+    color:black !important;
+    background:none;
+}
+#wpbody-content{
+	padding-left:30px;
+	width:calc(100% - 40px);
+}
+.wtf-cdash-container{
+	width:300px;
+	height:200px;
+	background:#FFF;
+	border-radius:10px;
+	box-shadow:4px 4px 3px #dfdfdf; 
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+#wpadminbar  #wp-admin-bar-my-account .ab-sub-wrapper {
+	border-radius:10px 0 0 10px;
+	background: #32373c;
+}
+#wpadminbar  #wp-admin-bar-my-account .ab-sub-wrapper .ab-item{
+	color:white;
+	background: #32373c;
+}
+#wpadminbar #wp-admin-bar-user-info .display-name{
+	color:white;
+}
